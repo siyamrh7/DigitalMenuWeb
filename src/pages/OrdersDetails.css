@@ -1,0 +1,473 @@
+.orderdetailstop-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-500);
+  border-bottom: 1px dashed var(--color-gray-200);
+  box-sizing: border-box;
+  width: 315px;
+  height: 177px;
+}
+.order-details {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 48px);
+  display: inline-block;
+  width: 96px;
+  height: 20px;
+}
+.headdetails,
+.order-id,
+.thfashfds {
+  position: relative;
+  width: 96px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.order-id,
+.thfashfds {
+  display: inline-block;
+  width: 67px;
+}
+.thfashfds {
+  width: 83px;
+  height: 19px;
+}
+.head1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 156px;
+}
+.order-status {
+  position: relative;
+  display: inline-block;
+  width: 73px;
+  height: 17.89px;
+  flex-shrink: 0;
+}
+.preparing {
+  position: absolute;
+  top: calc(50% - 9.94px);
+  left: calc(50% - 43.5px);
+  display: inline-block;
+  width: 87px;
+  height: 19.88px;
+}
+.preparing-wrapper {
+  position: relative;
+  width: 87px;
+  height: 19.88px;
+  flex-shrink: 0;
+  text-align: center;
+  color: var(--color-green);
+}
+.head2 {
+  width: 287px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 142px;
+  text-align: left;
+}
+.div,
+.special-chawmin {
+  position: relative;
+  display: inline-block;
+  width: 131px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.div {
+  width: 87px;
+}
+.head3 {
+  width: 295px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.total {
+  position: relative;
+  display: inline-block;
+  width: 87px;
+  height: 19.88px;
+  flex-shrink: 0;
+}
+.head5,
+.orderdetailscon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head5 {
+  width: 302px;
+  flex-direction: row;
+  gap: var(--gap-lg);
+}
+.orderdetailscon {
+  position: absolute;
+  top: calc(50% - 76px);
+  left: calc(50% - 152.5px);
+  flex-direction: column;
+  gap: 5px;
+}
+.orderdetailstop,
+.payment-unpaid {
+  position: relative;
+  width: 315px;
+  height: 177px;
+  flex-shrink: 0;
+}
+.payment-unpaid {
+  display: inline-block;
+  width: 86px;
+  height: 18px;
+}
+.make-payment {
+  position: absolute;
+  top: 2px;
+  left: 7.18px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-oswald);
+  color: var(--color-gray-400);
+  text-align: center;
+  display: inline-block;
+  width: 58.64px;
+  height: 15px;
+}
+.paymentbtn,
+.paymentbtn-child {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+.paymentbtn-child {
+  border: 1px solid var(--color-gray-400);
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 74px;
+  height: 20.88px;
+}
+.paymentbtn {
+  border: 0;
+  position: relative;
+  width: 73px;
+  height: 19.88px;
+  flex-shrink: 0;
+}
+.makepayment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 126px;
+  text-align: left;
+}
+.orderothersback {
+  position: absolute;
+  top: calc(50% - 77px);
+  left: calc(50% - 157.5px);
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-500);
+  border-bottom: 1px dashed var(--color-gray-200);
+  box-sizing: border-box;
+  width: 315px;
+  height: 154px;
+}
+.other-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 96px;
+  height: 20px;
+}
+.head11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 144px;
+}
+.div2,
+.mobile {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.div2 {
+  text-align: center;
+  width: 84.45px;
+  height: 19.88px;
+}
+.head21 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 157px;
+  text-align: left;
+}
+.delivery-address {
+  position: relative;
+  display: inline-block;
+  width: 101px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.head31 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 110px;
+}
+.time-of-order {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.head41,
+.orderotherscon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 131px;
+}
+.orderotherscon {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: calc(50% - 151.26px);
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.orderothers {
+  position: relative;
+  width: 315px;
+  height: 154px;
+  flex-shrink: 0;
+}
+.order-cancelation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 104px;
+  height: 20px;
+}
+.order-cancelation-wrapper {
+  position: relative;
+  width: 104px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.cancel {
+  position: absolute;
+  top: 2px;
+  left: 3.2px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-oswald);
+  color: var(--color-gray-400);
+  text-align: center;
+  display: inline-block;
+  width: 59.67px;
+  height: 15px;
+}
+.ordercancelbtn,
+.ordercancelbtn-child {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+.ordercancelbtn-child {
+  border: 1px solid var(--color-gray-400);
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 66px;
+  height: 20.88px;
+}
+.ordercancelbtn {
+  border: 0;
+  position: relative;
+  width: 65px;
+  height: 19.88px;
+  flex-shrink: 0;
+}
+.ordercancelation,
+.orderdetailsmain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 116px;
+}
+.orderdetailsmain {
+  position: static;
+ margin-top: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-oswald);
+}
+.homebtn-item,
+.vector-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 58px;
+}
+.vector-icon1 {
+  height: 32.44%;
+  width: 38.39%;
+  top: 14.36%;
+  right: 32.59%;
+  bottom: 53.2%;
+  left: 29.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home2 {
+  position: absolute;
+  top: 32px;
+  left: 15px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.homebtn1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 56px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.cart1,
+.house1 {
+  position: absolute;
+}
+.house1 {
+  height: 48.28%;
+  width: 50%;
+  top: 6.9%;
+  right: 26.79%;
+  bottom: 44.83%;
+  left: 23.21%;
+  overflow: hidden;
+}
+.cart1 {
+  top: 32px;
+  left: 17px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.cartfill-icon1 {
+  position: absolute;
+  top: 4px;
+  left: 13px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.orders1 {
+  position: absolute;
+  top: 32px;
+  left: 12px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.newspaper-icon1 {
+  position: absolute;
+  height: 48.28%;
+  width: 50%;
+  top: 6.9%;
+  right: 25%;
+  bottom: 44.83%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bottomnav1 {
+  position: absolute;
+  top: calc(50% + 364px);
+  left: calc(50% - 195px);
+  background-color: var(--color-gray-300);
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.backbtn-icon,
+.headertxt {
+  position: relative;
+  flex-shrink: 0;
+}
+.backbtn-icon {
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.headertxt {
+  display: inline-block;
+  width: 97px;
+}
+.header {
+  position: absolute;
+  top: calc(50% - 422px);
+  left: calc(50% - 195px);
+  background-color: var(--color-gray-300);
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 94px;
+}
+.orders-details {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-oswald);
+}

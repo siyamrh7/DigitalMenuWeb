@@ -1,0 +1,45 @@
+.backbtn {
+    position: absolute;
+    flex-shrink: 0;
+  }
+  .backbtn {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .headertxt1 {
+    font-size: var(--font-size-3xl);
+    text-align: center !important;
+    color: var(--color-white);
+    font-family: var(--font-oswald);
+  }
+  .header1 {
+    position: absolute;
+    top: 0;
+    background-color: var(--color-gray-300);
+    width: 100vw;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-md);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 102px;
+  }
+  .vector-icon2 {
+    height: 48.69%;
+    width: 59.42%;
+    top: 24.38%;
+    right: 20.31%;
+    bottom: 26.94%;
+    left: 20.27%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .vector-icon2 {
+    position: absolute;
+    overflow: hidden;
+  }

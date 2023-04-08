@@ -1,0 +1,103 @@
+.homebtn-child,
+.vector-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 58px;
+}
+.vector-icon {
+  height: 32.44%;
+  width: 38.39%;
+  top: 14.36%;
+  right: 32.59%;
+  bottom: 53.2%;
+  left: 29.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home1 {
+  position: absolute;
+  top: 32px;
+  left: 15px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.homebtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 56px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.cart,
+.house {
+  position: absolute;
+}
+.house {
+  height: 48.28%;
+  width: 50%;
+  top: 6.9%;
+  right: 26.79%;
+  bottom: 44.83%;
+  left: 23.21%;
+  overflow: hidden;
+}
+.cart {
+  top: 32px;
+  left: 17px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.cartfill-icon {
+  position: absolute;
+  top: 4px;
+  left: 13px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.orders {
+  position: absolute;
+  top: 32px;
+  left: 12px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-oswald);
+  color: var(--color-white);
+  text-align: left;
+}
+.newspaper-icon {
+  position: absolute;
+  height: 48.28%;
+  width: 50%;
+  top: 6.9%;
+  right: 25%;
+  bottom: 44.83%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bottomnav {
+  /* top: calc(50% + 364px); */
+  bottom: 0%;
+  background-color: var(--color-gray-300);
+  position: absolute;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+}

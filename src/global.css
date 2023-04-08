@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-oswald: Oswald;
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-sm: 10px;
+  --font-size-base: 12px;
+  --font-size-lg: 13px;
+  --font-size-xl: 14px;
+  --font-size-2xl: 15px;
+  --font-size-3xl: 16px;
+  --font-size-4xl: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #efedf9;
+  --color-gray-200: #dad1d1;
+  --color-gray-300: #314a70;
+  --color-gray-400: #111;
+  --color-gray-500: rgba(57, 46, 45, 0);
+  --color-black: #000;
+  --color-green: #008000;
+
+  /* Gaps */
+  --gap-2xs: 10px;
+  --gap-xs: 15px;
+  --gap-sm: 72px;
+  --gap-md: 101px;
+  --gap-lg: 164px;
+  --gap-xl: 173px;
+
+  /* Paddings */
+  --padding-sm: 10px;
+  --padding-md: 37px;
+
+  /* border radiuses */
+  --br-sm: 2px;
+  --br-md: 3px;
+  --br-lg: 10px;
+}
